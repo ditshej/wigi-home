@@ -1,11 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
 
-body, html {
-  font-family: 'Sniglet', cursive;
-  background-color: #e0c977;
-  color: white;
-}
-
 header, main, footer, .about, .calendar, .contact {
   margin: 0 auto;
   max-width: 700px;
