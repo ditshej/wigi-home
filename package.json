@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ditshej/wigi-home#readme",
   "devDependencies": {
-    "laravel-mix": "^6.0.10"
+    "autoprefixer": "^10.2.3",
+    "laravel-mix": "^6.0.10",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
   }
 }
