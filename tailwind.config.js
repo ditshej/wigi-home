@@ -13,7 +13,8 @@ module.exports = {
         sans: ['Sniglet', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        lime: colors.lime,
+        orange: colors.orange,
+        amber: colors.amber,
       },
     },
   },
