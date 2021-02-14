@@ -22,5 +22,8 @@
 		"laravel-mix": "^6.0.10",
 		"postcss": "^8.2.4",
 		"tailwindcss": "^2.0.2"
+	},
+	"dependencies": {
+		"@tailwindcss/aspect-ratio": "^0.2.0"
 	}
 }
