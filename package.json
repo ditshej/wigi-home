@@ -24,6 +24,7 @@
 		"tailwindcss": "^2.0.2"
 	},
 	"dependencies": {
-		"@tailwindcss/aspect-ratio": "^0.2.0"
+		"@tailwindcss/aspect-ratio": "^0.2.0",
+		"fullcalendar": "^5.5.1"
 	}
 }

@@ -25,6 +25,22 @@
   <meta name="theme-color" content="#fafafa">
 
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+  <link href='/node_modules/fullcalendar/main.css' rel='stylesheet'/>
+  <script src='/node_modules/fullcalendar/main.js'></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var calendarEl = document.getElementById('calendar-container');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        googleCalendarApiKey: 'AIzaSyC0-OLm9MnQOsyWNafvdHtGdecDdDf3StQ',
+        events: {
+          googleCalendarId: 'nh33ss190cir938nhvuh7ho4n4@group.calendar.google.com'
+        }
+      });
+      calendar.render();
+    });
+  </script>
 </head>
 
 <body class="text-center bg-gradient-to-br from-orange-300 to-amber-700">
@@ -178,7 +194,8 @@
           <div class="relative lg:-my-8">
             <div aria-hidden="true" class="absolute inset-x-0 bottom-0 h-1/2  bg-cyan-700 lg:hidden"></div>
             <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-              <div class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+              <div
+                class="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img class="object-cover lg:h-full lg:w-full" src="img/silvan-with-gebrill.jpg" alt="">
               </div>
             </div>
@@ -187,8 +204,10 @@
             <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-20 lg:max-w-none">
               <blockquote>
                 <div>
-                  <svg class="h-12 w-12 text-orange-50 opacity-25" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
+                  <svg class="h-12 w-12 text-orange-50 opacity-25" fill="currentColor" viewBox="0 0 32 32"
+                       aria-hidden="true">
+                    <path
+                      d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z"/>
                   </svg>
                   <p class="mt-6 text-2xl font-medium text-orange-50">
                     Meine Berghütte hat viel mit deinen Socken 🧦 zu tun.
@@ -210,32 +229,16 @@
   </section>
 
   <section id="calendar">
-    <!--    <iframe-->
-    <!--      src="https://calendar.google.com/calendar/embed?bgcolor=%23e0c977&amp;src=nh33ss190cir938nhvuh7ho4n4%40group.calendar.google.com&amp;ctz=Europe%2FZurich&amp;showTitle=0&amp;mode=MONTH&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0"-->
-    <!--      style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>-->
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="bg-cyan-700 text-orange-50 rounded-lg shadow-xl overflow-hidden">
+          <div class="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 xl:py-20 xl:px-20">
+            <div id="calendar-container"></div>
+          </div>
+        </div>
+      </div>
   </section>
 
   <section id="contact">
-
-<!--    <form id="waterform" method="post">-->
-
-<!--      <div class="formgroup" id="name-form">-->
-<!--        <label for="name">Your name*</label>-->
-<!--        <input type="text" id="name" name="name"/>-->
-<!--      </div>-->
-
-<!--      <div class="formgroup" id="email-form">-->
-<!--        <label for="email">Your e-mail*</label>-->
-<!--        <input type="email" id="email" name="email"/>-->
-<!--      </div>-->
-
-<!--      <div class="formgroup" id="message-form">-->
-<!--        <label for="message">Your message</label>-->
-<!--        <textarea id="message" name="message"></textarea>-->
-<!--      </div>-->
-
-<!--      <input type="submit" value="Send your message!"/>-->
-<!--    </form>-->
 
   </section>
 
