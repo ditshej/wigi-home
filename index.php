@@ -38,9 +38,9 @@ require_once 'Config.php';
     document.addEventListener('DOMContentLoaded', function () {
       var calendarEl = document.getElementById('calendar-container');
       var calendar = new FullCalendar.Calendar(calendarEl, {
-        googleCalendarApiKey: <?= Config::GOOGLE_CALENDAR_API_KEY ?>,
+        googleCalendarApiKey: '<?= Config::GOOGLE_CALENDAR_API_KEY ?>',
         events: {
-          googleCalendarId: <?= Config::GOOGLE_CALENDAR_ID ?>
+          googleCalendarId: '<?= Config::GOOGLE_CALENDAR_ID ?>'
         }
       });
       calendar.render();
