@@ -261,7 +261,8 @@ require_once 'Config.php';
               Interessiert dich meine Hütte 🏠?
               Gerne kannst du dich über diese Formular bei mir melden.
             </p>
-            <form action="#" method="POST" class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-10 sm:gap-x-8">
+            <form action="form.php" method="POST" id="contact-form"
+                  class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-10 sm:gap-x-8">
               <div class="sm:col-span-5">
                 <label for="first_name" class="block text-sm font-medium text-cyan-700">Vorname</label>
                 <div class="mt-1">
@@ -301,33 +302,33 @@ require_once 'Config.php';
                 </div>
               </div>
               <div class="sm:col-span-3">
-                <label for="date-from" class="block text-sm font-medium text-cyan-700">Von...</label>
+                <label for="date_from" class="block text-sm font-medium text-cyan-700">Von...</label>
                 <div class="mt-1">
-                  <input type="date" name="date-from" id="date-from" autocomplete="given-name"
+                  <input type="date" name="date_from" id="date_from" autocomplete="given-name"
                          class="block w-full shadow-sm sm:text-sm focus:ring-cyan-500
                           focus:border-cyan-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <label for="time-from" class="block text-sm font-medium text-cyan-700">...um ca. ...</label>
+                <label for="time_from" class="block text-sm font-medium text-cyan-700">...um ca. ...</label>
                 <div class="mt-1">
-                  <input type="time" name="time-from" id="time-from" autocomplete="given-name"
+                  <input type="time" name="time_from" id="time_from" autocomplete="given-name"
                          class="block w-full shadow-sm sm:text-sm focus:ring-cyan-500
                           focus:border-cyan-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-3">
-                <label for="date-to" class="block text-sm font-medium text-cyan-700">... bis ...</label>
+                <label for="date_to" class="block text-sm font-medium text-cyan-700">... bis ...</label>
                 <div class="mt-1">
-                  <input type="date" name="date-to" id="date-to" autocomplete="family-name"
+                  <input type="date" name="date_to" id="date_to" autocomplete="family-name"
                          class="block w-full shadow-sm sm:text-sm focus:ring-cyan-500
                           focus:border-cyan-500 border-gray-300 rounded-md">
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <label for="time-to" class="block text-sm font-medium text-cyan-700">...um ca. ...</label>
+                <label for="time_to" class="block text-sm font-medium text-cyan-700">...um ca. ...</label>
                 <div class="mt-1">
-                  <input type="time" name="time-to" id="time-to" autocomplete="given-name"
+                  <input type="time" name="time_to" id="time_to" autocomplete="given-name"
                          class="block w-full shadow-sm sm:text-sm focus:ring-cyan-500
                           focus:border-cyan-500 border-gray-300 rounded-md">
                 </div>
