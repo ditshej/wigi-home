@@ -1,3 +1,8 @@
+<?php
+
+require_once 'Config.php';
+
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -33,9 +38,9 @@
     document.addEventListener('DOMContentLoaded', function () {
       var calendarEl = document.getElementById('calendar-container');
       var calendar = new FullCalendar.Calendar(calendarEl, {
-        googleCalendarApiKey: 'AIzaSyC0-OLm9MnQOsyWNafvdHtGdecDdDf3StQ',
+        googleCalendarApiKey: <?= Config::GOOGLE_CALENDAR_API_KEY ?>,
         events: {
-          googleCalendarId: 'nh33ss190cir938nhvuh7ho4n4@group.calendar.google.com'
+          googleCalendarId: <?= Config::GOOGLE_CALENDAR_ID ?>
         }
       });
       calendar.render();
