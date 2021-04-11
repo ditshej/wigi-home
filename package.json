@@ -1,32 +1,18 @@
 {
-	"name": "wigi-house",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/ditshej/wigi-home.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/ditshej/wigi-home/issues"
-	},
-	"homepage": "https://github.com/ditshej/wigi-home#readme",
-	"devDependencies": {
-		"autoprefixer": "^10.2.3",
-		"laravel-mix": "^6.0.10",
-		"postcss": "^8.2.4",
-		"tailwindcss": "^2.0.2"
-	},
-	"dependencies": {
-		"@tailwindcss/aspect-ratio": "^0.2.0",
-		"@tailwindcss/forms": "^0.2.1",
-		"fullcalendar": "^5.5.1",
-		"validate.js": "^0.13.1"
-	}
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
 }
