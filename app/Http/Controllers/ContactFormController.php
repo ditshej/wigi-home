@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactFormController extends Controller
 {
-    public function submit(Request $request)
+    public function submit(Request $request): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-        $validated = $request->validate([
+        $contact_form_data = $request->validate([
             'first_name' => 'required|alpha',
             'last_name' => 'required|alpha',
             'email' => 'required|email',
@@ -20,10 +22,7 @@ class ContactFormController extends Controller
             'how_can_we_help' => 'nullable',
             'socks' => 'nullable|boolean',
         ]);
-
-        // TODO[rw]: send mail (15.04.21 rw)
-
-
+        Mail::to('ditshej@gmail.com')->send(new Contact($contact_form_data));
         return view('contact_response_message');
     }
 }

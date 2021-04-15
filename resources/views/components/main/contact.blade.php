@@ -145,14 +145,14 @@
                             </legend>
                             <div class="mt-4 grid grid-cols-1 gap-y-4">
                                 <div class="flex items-center">
-                                    <input id="socks_yes" name="socks" value="true" type="radio"
+                                    <input id="socks_yes" name="socks" value="1" type="radio"
                                            class="focus:ring-cyan-500 h-4 w-4 text-cyan-600 border-gray-300">
                                     <label for="socks_yes" class="ml-3">
                                         <span class="block text-sm text-cyan-700">Jop</span>
                                     </label>
                                 </div>
                                 <div class="flex items-center">
-                                    <input id="socks_no" name="socks" value="false" type="radio"
+                                    <input id="socks_no" name="socks" value="0" type="radio"
                                            class="focus:ring-cyan-500 h-4 w-4 text-cyan-600 border-gray-300">
                                     <label for="socks_no" class="ml-3">
                                         <span class="block text-sm text-cyan-700">Ne</span>
