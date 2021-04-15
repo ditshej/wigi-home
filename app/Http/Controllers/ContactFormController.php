@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ContactFormController extends Controller
 {
-    public function submit(Request $request): void
+    public function submit(Request $request)
     {
         $validated = $request->validate([
             'first_name' => 'required|alpha',
@@ -19,6 +19,14 @@ class ContactFormController extends Controller
             'time_to' => 'nullable|required_with:time_from|date_format:H:i|different:time_from',
             'how_can_we_help' => 'nullable',
             'socks' => 'nullable|boolean',
+        ]);
+
+        // TODO[rw]: send mail (15.04.21 rw)
+
+
+        // TODO[rw]: do a better return message (15.04.21 rw)
+        return view('contact_response_message',[
+            'message' => 'du hesh s mail becho 😸'
         ]);
     }
 }
