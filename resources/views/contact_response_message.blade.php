@@ -3,5 +3,5 @@
     <x-slot name="header">
         <x-header.logo></x-header.logo>
     </x-slot>
-    {{ $message }}
+    <p>Vielen dank für deine Anfrage. Ich werde mich bald möglichst bei dir melden. 🧦</p>
 </x-layout>

@@ -24,9 +24,6 @@ class ContactFormController extends Controller
         // TODO[rw]: send mail (15.04.21 rw)
 
 
-        // TODO[rw]: do a better return message (15.04.21 rw)
-        return view('contact_response_message',[
-            'message' => 'du hesh s mail becho 😸'
-        ]);
+        return view('contact_response_message');
     }
 }
