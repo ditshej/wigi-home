@@ -1,4 +1,8 @@
+{{ if header_img }}
 <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+    {{ header_img }}
     <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-         src="https://source.unsplash.com/m0OWqF9lCeE/1600x900" alt="a house picture">
+         src="{{ url }}" alt="{{ alt }}">
+    {{ /header_img }}
 </div>
+{{ /if }}
