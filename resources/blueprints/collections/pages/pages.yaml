@@ -106,52 +106,17 @@ sections:
               display: Zitat
               fields:
                 -
-                  handle: quote_img
-                  field:
-                    mode: grid
-                    restrict: false
-                    allow_uploads: true
-                    show_filename: true
-                    max_files: 1
-                    display: Bild
-                    type: assets
-                    icon: assets
-                    listable: hidden
-                    instructions_position: above
+                  import: quote
+            section_img_left:
+              display: 'Bild links'
+              fields:
                 -
-                  handle: quote_text
-                  field:
-                    restrict: false
-                    automatic_line_breaks: true
-                    automatic_links: false
-                    escape_markup: false
-                    smartypants: false
-                    antlers: false
-                    display: Zitat
-                    type: markdown
-                    icon: markdown
-                    listable: hidden
-                    instructions_position: above
+                  import: section_img_left
+            section_img_right:
+              display: 'Bild rechts'
+              fields:
                 -
-                  handle: quote_author
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: Autor
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
-                -
-                  handle: quote_author_note
-                  field:
-                    input_type: text
-                    antlers: false
-                    display: 'Autor Beschreibung'
-                    type: text
-                    icon: text
-                    listable: hidden
-                    instructions_position: above
+                  import: section_img_right
   sidebar:
     display: Sidebar
     fields:
