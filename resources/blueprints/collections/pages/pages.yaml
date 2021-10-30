@@ -1,7 +1,7 @@
 title: Pages
 sections:
-  main:
-    display: Main
+  header_hero:
+    display: Kopfzeile
     fields:
       -
         handle: title
@@ -10,6 +10,52 @@ sections:
           required: true
           validate:
             - required
+          display: Titel
+          instructions_position: above
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: slogan
+        field:
+          input_type: text
+          antlers: false
+          display: Slogan
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: question
+        field:
+          input_type: text
+          antlers: false
+          display: Frage
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: action_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Aktion Name'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+      -
+        handle: action_url
+        field:
+          display: 'Aktion Link'
+          type: link
+          icon: link
+          listable: hidden
+          instructions_position: above
+  main:
+    display: Main
+    fields:
       -
         handle: content
         field:
