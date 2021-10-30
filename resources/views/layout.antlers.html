@@ -1,15 +1,8 @@
 <!doctype html>
-<html>
-<head>
-    <title>{{ title }}</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-900 text-white text-lg font-mono">
-<nav>
-    {{ nav:collection:pages include_home="true" }}
-    <a href="{{ url }}" class="{{ is_current || is_parent ?= 'underline' }}" >{{ title }}</a>
-    {{ /nav:collection:pages }}
-</nav>
+<html lang="de">
+{{ partial:head }}
+<body class="text-center bg-gradient-to-br from-orange-300 to-amber-700">
+{{ partial:header }}
 
 <div class="container max-w-lg mx-auto py-8">
     {{ template_content }}
