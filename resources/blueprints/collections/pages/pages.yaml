@@ -68,17 +68,12 @@ sections:
           container: images
           max_files: 1
   main:
-    display: Main
+    display: Inhalt
     fields:
       -
-        handle: content
+        handle: bard_content
         field:
-          type: markdown
-          localizable: true
-      -
-        handle: bard
-        field:
-          always_show_set_button: false
+          always_show_set_button: true
           buttons:
             - h2
             - h3
@@ -101,20 +96,62 @@ sections:
           allow_source: true
           enable_input_rules: true
           enable_paste_rules: true
-          display: Bard
+          display: Inhalt
           type: bard
           icon: bard
           listable: hidden
           instructions_position: above
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
-          instructions_position: above
+          sets:
+            quote:
+              display: Zitat
+              fields:
+                -
+                  handle: quote_img
+                  field:
+                    mode: grid
+                    restrict: false
+                    allow_uploads: true
+                    show_filename: true
+                    max_files: 1
+                    display: Bild
+                    type: assets
+                    icon: assets
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: quote_text
+                  field:
+                    restrict: false
+                    automatic_line_breaks: true
+                    automatic_links: false
+                    escape_markup: false
+                    smartypants: false
+                    antlers: false
+                    display: Zitat
+                    type: markdown
+                    icon: markdown
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: quote_author
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: Autor
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
+                -
+                  handle: quote_author_note
+                  field:
+                    input_type: text
+                    antlers: false
+                    display: 'Autor Beschreibung'
+                    type: text
+                    icon: text
+                    listable: hidden
+                    instructions_position: above
   sidebar:
     display: Sidebar
     fields:
@@ -135,3 +172,12 @@ sections:
           max_items: 1
           listable: false
           localizable: true
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
+          listable: hidden
+          instructions_position: above

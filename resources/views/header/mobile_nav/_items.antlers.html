@@ -1,0 +1,12 @@
+<div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
+    <div class="px-2 pt-2 pb-3 space-y-1" role="none">
+        {{ nav:collection:pages }}
+        <a href="{{ url }}"
+           class="block px-3 py-2 rounded-md text-base font-medium
+                        hover:text-orange-300 hover:bg-cyan-700
+                        {{ is_current || is_parent ? 'text-gray-900' : 'text-cyan-700' }}"
+           role="menuitem"
+        >{{ title }}</a>
+        {{ /nav:collection:pages }}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+    {{ nav:collection:pages }}
+    <a href="{{ url }}"
+       class="font-medium hover:text-orange-50 {{ is_current || is_parent ? 'text-gray-900' : 'text-cyan-700' }}"
+    >{{ title }}</a>
+    {{ /nav:collection:pages }}
+</div>
