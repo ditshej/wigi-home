@@ -1,0 +1,20 @@
+title: Aktion
+fields:
+  -
+    handle: action_name
+    field:
+      input_type: text
+      antlers: false
+      display: 'Aktion Bezeichnung'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: action_url
+    field:
+      display: 'Aktion Link'
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above

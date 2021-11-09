@@ -18,16 +18,16 @@
         >{{ question }}</p>
         {{ /if }}
 
-        {{ if action_name && action_url }}
+        {{ if header_action_name && header_action_url }}
         <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-                <a href="{{ action_url }}"
+                <a href="{{ header_action_url }}"
                    class="
                     w-full flex items-center justify-center px-8 py-3 border border-transparent
                     text-base font-medium rounded-md text-orange-50 bg-cyan-700
                     hover:bg-orange-300 hover:text-cyan-700
                     md:py-4 md:text-lg md:px-10"
-                >{{ action_name }}</a>
+                >{{ header_action_name }}</a>
             </div>
         </div>
         {{ /if }}

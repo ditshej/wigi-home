@@ -36,23 +36,8 @@ sections:
           listable: hidden
           instructions_position: above
       -
-        handle: action_name
-        field:
-          input_type: text
-          antlers: false
-          display: 'Aktion Name'
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-      -
-        handle: action_url
-        field:
-          display: 'Aktion Link'
-          type: link
-          icon: link
-          listable: hidden
-          instructions_position: above
+        import: action
+        prefix: header_
       -
         handle: header_img
         field:

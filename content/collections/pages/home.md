@@ -3,7 +3,7 @@ id: d63cd74f-c6b4-4f48-af18-c3af58108537
 blueprint: pages
 title: '🏠 wigi home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1635604415
+updated_at: 1635613086
 template: home
 slogan: 'miete dir eine Ferienwohnung 😉'
 question: 'Möchtest du gerne ein entspannte Zeit in einer gemütlichen Hütte verbringen?'
@@ -101,6 +101,11 @@ bard_content:
           - Bluetooth Lautsprecher (fürs Radio- und Musikhören übers eigene Hany) 
           - Gesellschaftsspiele 
           - Autoparkplatz beim Haus 
+page_action_text: 'da können wir dir weiterhelfen 🙂'
+page_action_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
+page_action_name: 'da können wir dir weiterhelfen 🙂'
+header_action_name: 'da können wir dir weiterhelfen 🙂'
+header_action_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
 content:
   -
     type: set
