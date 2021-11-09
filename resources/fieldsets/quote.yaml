@@ -16,19 +16,14 @@ fields:
   -
     handle: quote_text
     field:
-      restrict: false
-      automatic_line_breaks: true
-      automatic_links: false
-      escape_markup: false
-      smartypants: false
       antlers: false
       display: Zitat
-      type: markdown
-      icon: markdown
+      type: textarea
+      icon: textarea
       listable: hidden
       instructions_position: above
   -
-    handle: quote_auhtor
+    handle: quote_author
     field:
       input_type: text
       antlers: false

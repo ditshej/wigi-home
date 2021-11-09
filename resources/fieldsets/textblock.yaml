@@ -1,0 +1,21 @@
+title: Text
+fields:
+  -
+    handle: textblock_title
+    field:
+      input_type: text
+      antlers: false
+      display: Titel
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: textblock_content
+    field:
+      antlers: false
+      display: Inhalt
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above

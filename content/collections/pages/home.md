@@ -91,9 +91,9 @@ bard_content:
     type: set
     attrs:
       values:
-        type: section_img_left
-        section_img_left: IMG_20210306_145628.jpg
-        section_img_left_text: |-
+        type: img_left
+        img_left: IMG_20210306_145628.jpg
+        img_left_text: |-
           ## Ebenfalls vorhanden
           - 2 sehr gute Schlitten 
           - Holzkohlegrill 
