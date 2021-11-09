@@ -75,22 +75,22 @@ sections:
           listable: hidden
           instructions_position: above
           sets:
-            bard_content_quote:
+            quote:
               display: Zitat
               fields:
                 -
                   import: quote
-            bard_content_img_left:
+            img_left:
               display: 'Bild links'
               fields:
                 -
                   import: img_left
-            bard_content_img_right:
+            img_right:
               display: 'Bild rechts'
               fields:
                 -
                   import: img_right
-            bard_content_textblock:
+            textblock:
               display: Text
               fields:
                 -

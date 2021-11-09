@@ -1,21 +1,32 @@
-<section id="contact">
+<section>
     <div class="relative">
         <div class="
-            relative sm:h-72
+            relative h-72
             lg:absolute lg:left-0 lg:h-full lg:w-1/2"
         >
-            {{ img_left }}
-            <img class="w-full h-full object-cover" src="{{ url }}" alt="{{ alt }}">
-            {{ /img_left }}
+            {{ img_left_picture }}
+            <img class="w-full h-full object-cover"
+                 src="{{ url }}"
+                 alt="{{ alt }}">
+            {{ /img_left_picture }}
         </div>
 
         <div class="
-            relative mx-auto max-w-md px-4 py-12
+            relative mx-auto max-w-md pt-12 pb-16 px-4
             sm:max-w-7xl sm:px-6 sm:py-20
             lg:px-8 lg:py-32"
         >
-            <div class="lg:ml-auto lg:w-1/2 lg:pl-10">
-                {{ img_left_text }}
+            <div class="lg:w-1/2 lg:ml-auto lg:pl-10">
+                <h2 class="
+                    text-3xl text-cyan-700 font-extrabold tracking-tight
+                    sm:text-4xl"
+                >{{ img_left_textblock_title }}</h2>
+                <div class="
+                    mt-4 text-lg max-w-md mx-auto
+                    sm:max-w-lg lg:mx-0"
+                >
+                    {{ img_left_textblock_content }}
+                </div>
             </div>
         </div>
     </div>

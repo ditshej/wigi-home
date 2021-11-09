@@ -1,16 +1,32 @@
-<section id="contact">
+<section>
     <div class="relative">
-        <div class="lg:absolute lg:inset-0">
-            <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                {{ img_right }}
-                <img class="h-56 w-full object-cover lg:absolute lg:h-full" src="{{ url }}" alt="{{ alt }}">
-                {{ /img_right }}
-            </div>
+        <div class="
+            relative h-72
+            lg:absolute lg:right-0 lg:h-full lg:w-1/2"
+        >
+            {{ img_right_picture }}
+            <img class="w-full h-full object-cover"
+                 src="{{ url }}"
+                 alt="{{ alt }}">
+            {{ /img_right_picture }}
         </div>
-        <div class="relative pt-12 pb-16 px-4 sm:pt-16 sm:px-6 lg:px-8 lg:max-w-7xl lg:mx-auto lg:grid lg:grid-cols-2">
-            <div class="lg:pr-8">
-                <div class="max-w-md mx-auto sm:max-w-lg lg:mx-0">
-                    {{ img_right_text }}
+
+        <div class="
+            relative mx-auto max-w-md pt-12 pb-16 px-4
+            sm:max-w-7xl sm:px-6 sm:py-20
+            lg:px-8 lg:py-32
+            lg:grid lg:grid-cols-2"
+        >
+            <div class="lg:pr-10">
+                <h2 class="
+                    text-3xl text-cyan-700 font-extrabold tracking-tight
+                    sm:text-4xl"
+                >{{ img_right_textblock_title }}</h2>
+                <div class="
+                    mt-4 text-lg max-w-md mx-auto
+                    sm:max-w-lg lg:mx-0"
+                >
+                    {{ img_right_textblock_content }}
                 </div>
             </div>
         </div>
