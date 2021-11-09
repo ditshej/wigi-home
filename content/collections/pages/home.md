@@ -1,125 +1,36 @@
 ---
-id: d63cd74f-c6b4-4f48-af18-c3af58108537
+id: 7c4f73f8-7322-41ba-8002-9a51def915a2
 blueprint: pages
 title: '🏠 wigi home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1635613086
-template: home
-slogan: 'miete dir eine Ferienwohnung 😉'
-question: 'Möchtest du gerne ein entspannte Zeit in einer gemütlichen Hütte verbringen?'
-aktion: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
-action_name: 'da kann ich dir weiterhelfen 🙂'
-aktion_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
-action_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
+updated_at: 1636486335
+slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
 header_img: ferienwohnung/20210509_122214.jpg
 bard_content:
   -
     type: set
     attrs:
       values:
-        type: quote
+        type: bard_content_quote
         quote_img: IMG_20201213_114459.jpg
-        quote_text: 'Unsere Ferienwohnung hat viel mit deinen Socken 🧦 zu tun. Du wirst im Winter genug warme 🧦 einpacken müssen. Und im Sommer wirst du deine 🧦 zuhause lassen können. Aber auf jeden Fall wird die Berghütte dich aus deinen 🧦 hauen.'
-        quote_auhtor: 'Silvan Wigert'
-        quote_author_note: 'trägt grundsätzlich gerne 🧦'
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: 'Beschreibung der Wohnung'
-  -
-    type: bullet_list
-    content:
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '1.5-Zimmer-Wohnung (26 m2)'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Küche mit Glaskeramikherd, Backofen, Geschirrspülmaschine, Kaffeemaschine, Wasserkocher, Raclette-Ofen, Fonduegeschirr, Hand-Mixer, Kühlschrank mit kleinem Gefrierfach'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '2 Boxspringbetten (Kopf- und Fussteil elektrisch verstellbar, 80 cm breit, die Betten können auseinandergeschoben werden) '
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: '1 Schlafsessel für Einzelperson'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Bad mit Dusche/WC, Bodenheizung, Haarföhn'
-      -
-        type: list_item
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Kleiner Balkon mit 2 Stühlen und kleinem Tisch, Sonnenstore'
+        quote_text: 'Willkommen in Wigerts Ferien-Wöhnigli!'
+        quote_author: 'Silvan & Janine Wigert'
   -
     type: set
     attrs:
       values:
-        type: img_left
-        img_left: IMG_20210306_145628.jpg
-        img_left_text: |-
-          ## Ebenfalls vorhanden
-          - 2 sehr gute Schlitten 
-          - Holzkohlegrill 
-          - WLAN, TV mit Netflix 
-          - Bluetooth Lautsprecher (fürs Radio- und Musikhören übers eigene Hany) 
-          - Gesellschaftsspiele 
-          - Autoparkplatz beim Haus 
-page_action_text: 'da können wir dir weiterhelfen 🙂'
-page_action_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
-page_action_name: 'da können wir dir weiterhelfen 🙂'
-header_action_name: 'da können wir dir weiterhelfen 🙂'
-header_action_url: 'entry::39161210-cc8a-42f4-b315-13c4a68b370f'
-content:
+        type: bard_content_img_right
+        img_right_textblock_title: Lage
+        img_right_textblock_content: 'die Wohnung befindet sich 1289 m ü. M., im Bündner Bergdorf Affeier (Gemeinde Obersaxen-Mundaun)'
+        img_right_picture: ferienwohnung/20210217_135529.jpg
   -
     type: set
     attrs:
       values:
-        type: quote
-        quote_img: IMG_20201213_114459.jpg
-        quote_text: 'Unsere Ferienwohnung hat viel mit deinen Socken 🧦 zu tun. Du wirst im Winter genug warme 🧦 einpacken müssen. Und im Sommer wirst du deine 🧦 zuhause lassen können. Aber auf jeden Fall wird die Berghütte dich aus deinen 🧦 hauen.'
-        quote_author: 'Silvan Wigert'
-        quote_author_note: 'trägt grundsätzlich gerne 🧦'
+        type: bard_content_img_left
+        img_left_textblock_title: Wohnung
+        img_left_textblock_content: 'Die 1½-Zimmer-Wohnung wurde 2020/21 vollständig renoviert, sie hat eine Grösse von 26 m2 und eignet sich für einen Aufenthalt von 1 bis 2 Personen.'
+        img_left_picture: ferienwohnung/IMG-20201214-WA0021.jpg
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'Hello togheter'
 ---

@@ -6,7 +6,7 @@ fields:
   -
     handle: img_right_picture
     field:
-      mode: list
+      mode: grid
       restrict: false
       allow_uploads: true
       show_filename: true

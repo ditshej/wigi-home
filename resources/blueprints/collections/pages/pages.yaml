@@ -59,18 +59,6 @@ sections:
         handle: bard_content
         field:
           always_show_set_button: true
-          buttons:
-            - h2
-            - h3
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-            - table
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
@@ -87,21 +75,26 @@ sections:
           listable: hidden
           instructions_position: above
           sets:
-            quote:
+            bard_content_quote:
               display: Zitat
               fields:
                 -
                   import: quote
-            img_left:
+            bard_content_img_left:
               display: 'Bild links'
               fields:
                 -
                   import: img_left
-            img_right:
+            bard_content_img_right:
               display: 'Bild rechts'
               fields:
                 -
                   import: img_right
+            bard_content_textblock:
+              display: Text
+              fields:
+                -
+                  import: textblock
   sidebar:
     display: Sidebar
     fields:
