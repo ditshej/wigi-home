@@ -15,4 +15,3 @@ fields:
       instructions_position: above
   -
     import: textblock
-    prefix: img_left_

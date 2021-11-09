@@ -13,9 +13,54 @@ fields:
   -
     handle: textblock_content
     field:
-      antlers: false
+      always_show_set_button: false
+      sets:
+        text:
+          display: Text
+          fields:
+            -
+              handle: textblock_content_text
+              field:
+                antlers: false
+                display: Text
+                type: textarea
+                icon: textarea
+                listable: hidden
+                instructions_position: above
+        list:
+          display: Liste
+          fields:
+            -
+              handle: textblock_content_list
+              field:
+                display: Liste
+                type: list
+                icon: list
+                listable: hidden
+                instructions_position: above
+        table:
+          display: Tabelle
+          fields:
+            -
+              handle: textblock_content_table
+              field:
+                display: Tabelle
+                type: table
+                icon: table
+                listable: hidden
+                instructions_position: above
+      save_html: false
+      toolbar_mode: fixed
+      link_noopener: false
+      link_noreferrer: false
+      target_blank: false
+      reading_time: false
+      fullscreen: true
+      allow_source: true
+      enable_input_rules: true
+      enable_paste_rules: true
       display: Inhalt
-      type: textarea
-      icon: textarea
+      type: bard
+      icon: bard
       listable: hidden
       instructions_position: above

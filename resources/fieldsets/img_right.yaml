@@ -2,7 +2,6 @@ title: 'Bild rechts'
 fields:
   -
     import: textblock
-    prefix: img_right_
   -
     handle: img_right_picture
     field:
