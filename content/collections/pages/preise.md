@@ -5,7 +5,7 @@ title: '💸 Preise'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
 updated_at: 1636491902
 header_img: ferienwohnung/20210217_135500.jpg
-bard_content:
+replicator_content:
   -
     type: set
     attrs:

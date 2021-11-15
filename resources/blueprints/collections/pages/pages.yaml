@@ -56,24 +56,10 @@ sections:
     display: Inhalt
     fields:
       -
-        handle: bard_content
+        handle: replicator_content
         field:
-          always_show_set_button: true
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
+          type: replicator
           display: Inhalt
-          type: bard
-          icon: bard
-          listable: hidden
-          instructions_position: above
           sets:
             quote:
               display: Zitat
@@ -95,6 +81,9 @@ sections:
               fields:
                 -
                   import: textblock
+          instructions_position: above
+          listable: true
+          collapse: false
   sidebar:
     display: Sidebar
     fields:

@@ -6,7 +6,7 @@ updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
 updated_at: 1636490739
 slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
 header_img: ferienwohnung/20210509_122214.jpg
-bard_content:
+replicator_content:
   -
     type: set
     attrs:

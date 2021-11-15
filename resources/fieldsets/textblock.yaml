@@ -13,7 +13,8 @@ fields:
   -
     handle: textblock_content
     field:
-      always_show_set_button: false
+      type: replicator
+      display: Inhalt
       sets:
         text:
           display: Text
@@ -49,18 +50,6 @@ fields:
                 icon: table
                 listable: hidden
                 instructions_position: above
-      save_html: false
-      toolbar_mode: fixed
-      link_noopener: false
-      link_noreferrer: false
-      target_blank: false
-      reading_time: false
-      fullscreen: true
-      allow_source: true
-      enable_input_rules: true
-      enable_paste_rules: true
-      display: Inhalt
-      type: bard
-      icon: bard
-      listable: hidden
       instructions_position: above
+      listable: true
+      collapse: false
