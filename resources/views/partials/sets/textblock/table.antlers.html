@@ -1,0 +1,29 @@
+<table>
+    {{ textblock_content_table }}
+    {{ if first && !last }}
+    <thead>
+    <tr>
+        {{ cells }}
+        <th>{{ value }}</th>
+        {{ /cells }}
+    </tr>
+    </thead>
+    {{ else }}
+    {{ if first }}
+    <tbody>
+    {{ /if }}
+    <tr>
+        {{ cells }}
+        {{ if first }}
+        <th>{{ value }}</th>
+        {{ else }}
+        <td>{{ value }}</td>
+        {{ /if }}
+        {{ /cells }}
+    </tr>
+    {{ if last }}
+    </tbody>
+    {{ /if }}
+    {{ /if }}
+    {{ /textblock_content_table }}
+</table>
