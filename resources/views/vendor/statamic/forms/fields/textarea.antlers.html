@@ -1,1 +1,12 @@
-<textarea name="{{ handle }}" rows="5"{{ if placeholder }} placeholder="{{ placeholder }}"{{ /if }}{{ if validate|contains:required }} required{{ /if }}{{ if character_limit }} maxlength="{{ character_limit }}"{{ /if }}>{{ old ?? default }}</textarea>
+<textarea
+    class="block w-full
+        shadow-sm border-gray-300 rounded-md
+        sm:text-sm
+        focus:ring-cyan-500 focus:border-cyan-500"
+    id="{{ handle }}"
+    name="{{ handle }}"
+    rows="5"
+    {{ if placeholder }} placeholder="{{ placeholder }}"{{ /if }}
+    {{ if validate|contains:required }} required{{ /if }}
+    {{ if character_limit }} maxlength="{{ character_limit }}"{{ /if }}
+>{{ old ?? default }}</textarea>

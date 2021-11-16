@@ -71,11 +71,11 @@ sections:
           listable: hidden
           instructions_position: above
       -
-        handle: street
+        handle: street_and_number
         field:
           input_type: text
           antlers: false
-          display: 'Strasse + Nr'
+          display: 'Strasse & Nr'
           type: text
           icon: text
           listable: hidden
@@ -83,23 +83,11 @@ sections:
           validate:
             - required
       -
-        handle: zip_code
+        handle: zip_and_place
         field:
           input_type: text
           antlers: false
-          display: PLZ
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          validate:
-            - required
-      -
-        handle: place
-        field:
-          input_type: text
-          antlers: false
-          display: Ort
+          display: 'PLZ & Ort'
           type: text
           icon: text
           listable: hidden

@@ -1,1 +1,13 @@
-<input type="{{ input_type ?? 'text' }}" name="{{ handle }}"{{ if placeholder }} placeholder="{{ placeholder }}"{{ /if }} value="{{ old ?? default}}"{{ if validate|contains:required }} required{{ /if }}{{ if character_limit }} maxlength="{{ character_limit }}"{{ /if }}>
+<input
+    class="block w-full text-center
+        shadow-sm border-gray-300 rounded-md
+        sm:text-sm
+        focus:ring-cyan-500 focus:border-cyan-500 "
+    type="{{ input_type ?? 'text' }}"
+    name="{{ handle }}"
+    id="{{ handle }}"
+    {{ if placeholder }} placeholder="{{ placeholder }}"{{ /if }}
+    value="{{ old ?? default }}"
+    {{ if validate|contains:required }} required{{ /if }}
+    {{ if character_limit }} maxlength="{{ character_limit }}"{{ /if }}
+>
