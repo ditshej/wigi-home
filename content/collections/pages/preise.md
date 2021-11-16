@@ -3,7 +3,7 @@ id: 1bd1a330-c3c4-4e16-92ab-3f67d5a84bdf
 blueprint: pages
 title: '💸 Preise'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1637008709
+updated_at: 1637085381
 header_img: ferienwohnung/20210217_135500.jpg
 replicator_content:
   -
@@ -13,13 +13,15 @@ replicator_content:
         textblock_content_table:
           -
             cells:
+              - '15. Dezember bis 15. März'
               - Winter
-              - '3 Übernachtungen'
-              - 'ab 4 Übernachtungen'
           -
             cells:
-              - '15. Dezember – 15. März'
+              - '3 Übernachtungen'
               - 'Fr. 75.-- / Übern.'
+          -
+            cells:
+              - 'ab 4 Übernachtungen'
               - 'Fr. 65.-- / Übern.'
         type: table
         enabled: true
@@ -27,13 +29,15 @@ replicator_content:
         textblock_content_table:
           -
             cells:
+              - '16. März bis 14. Dezember'
               - 'Frühling bis Herbst'
-              - '3 Übernachtungen'
-              - 'ab 4 Übernachtungen'
           -
             cells:
-              - '16. März bis 14. Dezember'
+              - '3 Übernachtungen'
               - 'Fr. 55.-- / Übern.'
+          -
+            cells:
+              - 'ab 4 Übernachtungen'
               - 'Fr. 45.-- / Übern.'
         type: table
         enabled: true
