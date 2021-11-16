@@ -3,7 +3,7 @@ id: 1bd1a330-c3c4-4e16-92ab-3f67d5a84bdf
 blueprint: pages
 title: '💸 Preise'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1637085381
+updated_at: 1637087855
 header_img: ferienwohnung/20210217_135500.jpg
 replicator_content:
   -
@@ -65,5 +65,52 @@ replicator_content:
         type: list
         enabled: true
     type: img_left
+    enabled: true
+  -
+    textblock_title: 'Ebenfalls vorhanden'
+    textblock_content:
+      -
+        textblock_content_list:
+          - '2 sehr gute Schlitten'
+          - Holzkohlegrill
+          - 'WLAN, TV mit Netflix'
+          - 'Bluetooth Lautsprecher (fürs Radio und Musikhören übers eigene Handy)'
+          - Gesellschaftsspiele
+        type: list
+        enabled: true
+    img_right_picture: IMG_20210306_145628.jpg
+    type: img_right
+    enabled: true
+  -
+    textblock_title: 'Im Übernachtungspreis inbegriffen'
+    textblock_content:
+      -
+        textblock_content_list:
+          - Kaffeekapseln
+          - 'Kleine Küchenausrüstung mit Öl, Essig, Gewürzen, Tee'
+          - Bettwäsche
+          - 'Küchen- und Frottierwäsche'
+          - 'Putzmaterial, gebührenpflichtige Abfallsäcke'
+          - WLAN
+          - 'Im Winter gibt es in Obersaxen einen Gratis-Skibus'
+          - 'Von Juni bis Oktober Surselva-Gästekarte mit div. Vergünstigungen'
+        type: list
+        enabled: true
+    type: img_left
+    enabled: true
+    img_left_picture: 20210603_092931.jpg
+  -
+    textblock_title: 'Lage der Wohnung'
+    textblock_content:
+      -
+        textblock_content_list:
+          - 'Die Wohnung befindet sich in einem Mehrfamilienhaus, im 1. Stock.'
+          - 'Kleiner Lebensmittelladen (Volg), Bäckerei/Konditorei, sind zu Fuss in 3-4 Min. erreichbar.'
+          - 'Ein Sportgeschäft (mit Ski-/Snowboard-Vermietung) gleich gegenüber der Wohnung.'
+          - 'Die Busstation befindet sich 3 Gehminuten von der Wohnung entfernt.'
+        type: list
+        enabled: true
+    img_right_picture: ferienwohnung/IMG-20201214-WA0051.jpg
+    type: img_right
     enabled: true
 ---
