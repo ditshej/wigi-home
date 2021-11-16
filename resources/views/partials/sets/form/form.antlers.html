@@ -1,0 +1,47 @@
+{{ form:create in="{form_form|raw}" }}
+
+{{ if success }}
+<div class="bg-green-300 text-white p-2">
+    {{ success }}
+</div>
+{{ else }}
+
+{{ if errors }}
+<div class="bg-red-300 text-white p-2">
+    {{ errors }}
+    {{ value }}<br>
+    {{ /errors }}
+</div>
+{{ /if }}
+
+<div class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-10 sm:gap-x-8">
+    {{ fields }}
+    <div class="sm:col-span-5">
+        <label class="block text-sm font-medium text-cyan-700"
+               for="{{ handle }}"
+        >{{ display }}</label>
+
+            {{ if handle === 'remarks' }}
+            {{ partial src="sets/form/form/date_from" }}
+            {{ else }}
+
+            <div class="mt-1">
+                {{ field }}
+            </div>
+
+            {{ /if }}
+
+            {{ if error }}
+            <p class="text-gray-500">{{ error }}</p>
+            {{ /if }}
+
+    </div>
+    {{ /fields }}
+</div>
+
+<input type="text" class="hidden" name="{{ honeypot ?? 'honeypot' }}">
+
+<button type="submit">Submit</button>
+{{ /if }}
+
+{{ /form:create }}

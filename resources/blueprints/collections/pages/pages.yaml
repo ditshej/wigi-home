@@ -81,6 +81,11 @@ sections:
               fields:
                 -
                   import: textblock
+            form:
+              display: Formular
+              fields:
+                -
+                  import: form
           instructions_position: above
           listable: true
           collapse: false

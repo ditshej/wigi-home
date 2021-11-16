@@ -1,1 +1,10 @@
 title: Mietanfrage
+email:
+  -
+    to: weruffy@hotmail.com
+    from: ditshej@gmail.com
+    reply_to: ditshej@gmail.com
+    subject: 'Danke für deine Mietanfrage'
+  -
+    to: ditshej@gmail.com
+    subject: 'Mietanfrage wigi-home.ch'
