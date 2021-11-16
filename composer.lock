@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99065f521110aea48f98dadc75768cbd",
+    "content-hash": "e2483a8f7559fe140632ec290e73a9e2",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -825,16 +825,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "3.1.3",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "96b0053775a544b4a6ab47654dac0621be8b4cf8"
+                "reference": "821b4f01a36ce63ed36c090ea74767b72db367e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/96b0053775a544b4a6ab47654dac0621be8b4cf8",
-                "reference": "96b0053775a544b4a6ab47654dac0621be8b4cf8",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/821b4f01a36ce63ed36c090ea74767b72db367e9",
+                "reference": "821b4f01a36ce63ed36c090ea74767b72db367e9",
                 "shasum": ""
             },
             "require": {
@@ -847,14 +847,14 @@
             "require-dev": {
                 "doctrine/coding-standard": "9.0.0",
                 "jetbrains/phpstorm-stubs": "2021.1",
-                "phpstan/phpstan": "0.12.99",
-                "phpstan/phpstan-strict-rules": "^0.12.11",
+                "phpstan/phpstan": "1.1.1",
+                "phpstan/phpstan-strict-rules": "^1",
                 "phpunit/phpunit": "9.5.10",
                 "psalm/plugin-phpunit": "0.16.1",
-                "squizlabs/php_codesniffer": "3.6.0",
+                "squizlabs/php_codesniffer": "3.6.1",
                 "symfony/cache": "^5.2|^6.0",
                 "symfony/console": "^2.0.5|^3.0|^4.0|^5.0|^6.0",
-                "vimeo/psalm": "4.10.0"
+                "vimeo/psalm": "4.12.0"
             },
             "suggest": {
                 "symfony/console": "For helpful console commands such as SQL execution and import of files."
@@ -914,7 +914,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/3.1.3"
+                "source": "https://github.com/doctrine/dbal/tree/3.1.4"
             },
             "funding": [
                 {
@@ -930,7 +930,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-02T16:15:05+00:00"
+            "time": "2021-11-15T16:44:33+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -4187,16 +4187,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.2.21",
+            "version": "v3.2.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "4d0588a35497767dce3a7d668b0ee87eb44cd7e1"
+                "reference": "d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/4d0588a35497767dce3a7d668b0ee87eb44cd7e1",
-                "reference": "4d0588a35497767dce3a7d668b0ee87eb44cd7e1",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc",
+                "reference": "d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc",
                 "shasum": ""
             },
             "require": {
@@ -4265,7 +4265,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.2.21"
+                "source": "https://github.com/statamic/cms/tree/v3.2.22"
             },
             "funding": [
                 {
@@ -4273,7 +4273,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-08T22:23:11+00:00"
+            "time": "2021-11-15T21:36:18+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7256,16 +7256,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.0",
+            "version": "v14.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "d191b0c34365c025c6cd953b5a63aa62946c7060"
+                "reference": "8f3e584335696c2eb8d307019f0afdff64fc0e35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d191b0c34365c025c6cd953b5a63aa62946c7060",
-                "reference": "d191b0c34365c025c6cd953b5a63aa62946c7060",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/8f3e584335696c2eb8d307019f0afdff64fc0e35",
+                "reference": "8f3e584335696c2eb8d307019f0afdff64fc0e35",
                 "shasum": ""
             },
             "require": {
@@ -7310,7 +7310,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.1"
             },
             "funding": [
                 {
@@ -7318,7 +7318,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-10-29T13:08:08+00:00"
+            "time": "2021-11-15T10:25:57+00:00"
         },
         {
             "name": "wilderborn/partyline",
