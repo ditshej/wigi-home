@@ -1,0 +1,30 @@
+title: Formular
+fields:
+  -
+    handle: form_title
+    field:
+      input_type: text
+      antlers: false
+      display: Titel
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+  -
+    handle: form_form
+    field:
+      max_items: 1
+      display: Formular
+      type: form
+      icon: form
+      listable: hidden
+      instructions_position: above
+  -
+    handle: form_description
+    field:
+      antlers: false
+      display: 'Text unterhalb'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
