@@ -86,6 +86,11 @@ sections:
               fields:
                 -
                   import: form
+            gallery:
+              display: Gallerie
+              fields:
+                -
+                  import: gallery
           instructions_position: above
           listable: true
           collapse: false

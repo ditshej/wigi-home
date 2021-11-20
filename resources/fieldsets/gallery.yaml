@@ -1,0 +1,35 @@
+title: Gallerie
+fields:
+  -
+    handle: gallery_title
+    field:
+      input_type: text
+      antlers: false
+      display: Titel
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      width: 66
+  -
+    handle: gallery_number
+    field:
+      display: 'Gallerie Nummer'
+      type: integer
+      icon: integer
+      width: 33
+      listable: hidden
+      instructions_position: above
+  -
+    handle: gallery_pictures
+    field:
+      mode: grid
+      container: images
+      restrict: false
+      allow_uploads: true
+      show_filename: true
+      display: Bilder
+      type: assets
+      icon: assets
+      listable: hidden
+      instructions_position: above
