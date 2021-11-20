@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2483a8f7559fe140632ec290e73a9e2",
+    "content-hash": "4dd78bb553042040370bdc3d6b6d4695",
     "packages": [
         {
             "name": "ajthinking/archetype",
-            "version": "v0.2.6",
+            "version": "v0.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ajthinking/archetype.git",
-                "reference": "da7f2bc2efe99cd4de3be42f89c665b281bad485"
+                "reference": "bed77b36cfaa9795028e8bc739bd09ef777f123c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ajthinking/archetype/zipball/da7f2bc2efe99cd4de3be42f89c665b281bad485",
-                "reference": "da7f2bc2efe99cd4de3be42f89c665b281bad485",
+                "url": "https://api.github.com/repos/ajthinking/archetype/zipball/bed77b36cfaa9795028e8bc739bd09ef777f123c",
+                "reference": "bed77b36cfaa9795028e8bc739bd09ef777f123c",
                 "shasum": ""
             },
             "require": {
@@ -68,9 +68,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ajthinking/archetype/issues",
-                "source": "https://github.com/ajthinking/archetype/tree/v0.2.6"
+                "source": "https://github.com/ajthinking/archetype/tree/v0.2.7"
             },
-            "time": "2021-10-30T07:47:59+00:00"
+            "time": "2021-11-16T19:03:35+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -583,23 +583,24 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.5",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "de30328a7af8680efdc03e396aad24befd513200"
+                "reference": "a30d487169d799745ca7280bc90fdfa693536901"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/de30328a7af8680efdc03e396aad24befd513200",
-                "reference": "de30328a7af8680efdc03e396aad24befd513200",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a30d487169d799745ca7280bc90fdfa693536901",
+                "reference": "a30d487169d799745ca7280bc90fdfa693536901",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
+                "phpstan/phpstan": "^0.12.55",
+                "symfony/phpunit-bridge": "^4.2 || ^5"
             },
             "type": "library",
             "extra": {
@@ -642,7 +643,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/spdx-licenses/issues",
-                "source": "https://github.com/composer/spdx-licenses/tree/1.5.5"
+                "source": "https://github.com/composer/spdx-licenses/tree/1.5.6"
             },
             "funding": [
                 {
@@ -658,7 +659,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-03T16:04:16+00:00"
+            "time": "2021-11-18T10:14:14+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -4187,16 +4188,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.2.22",
+            "version": "v3.2.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc"
+                "reference": "70208830834e9915531267de55d445d879e13a97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc",
-                "reference": "d49cbf9cf9fc67d4cc6bea77a333e6a682bddafc",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/70208830834e9915531267de55d445d879e13a97",
+                "reference": "70208830834e9915531267de55d445d879e13a97",
                 "shasum": ""
             },
             "require": {
@@ -4265,7 +4266,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.2.22"
+                "source": "https://github.com/statamic/cms/tree/v3.2.23"
             },
             "funding": [
                 {
@@ -4273,7 +4274,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-15T21:36:18+00:00"
+            "time": "2021-11-19T19:55:48+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -7256,16 +7257,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v14.11.1",
+            "version": "v14.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "8f3e584335696c2eb8d307019f0afdff64fc0e35"
+                "reference": "a7192e7a2b0487dc5e185feb4f4df1fc24d35d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/8f3e584335696c2eb8d307019f0afdff64fc0e35",
-                "reference": "8f3e584335696c2eb8d307019f0afdff64fc0e35",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/a7192e7a2b0487dc5e185feb4f4df1fc24d35d86",
+                "reference": "a7192e7a2b0487dc5e185feb4f4df1fc24d35d86",
                 "shasum": ""
             },
             "require": {
@@ -7310,7 +7311,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.1"
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.3"
             },
             "funding": [
                 {
@@ -7318,7 +7319,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-11-15T10:25:57+00:00"
+            "time": "2021-11-19T09:42:02+00:00"
         },
         {
             "name": "wilderborn/partyline",
