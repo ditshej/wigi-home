@@ -15025,9 +15025,9 @@ document.addEventListener('DOMContentLoaded', function () {
       center: 'title',
       right: ''
     },
-    googleCalendarApiKey: "AIzaSyDX6fHMG7j4tQ4ZUwcJiTzX_XgRWqqtOb8",
+    googleCalendarApiKey: "AIzaSyCaFYviWAXkyzRl96vuWdXJT5HXQ33vMVc",
     events: {
-      googleCalendarId: "nh33ss190cir938nhvuh7ho4n4@group.calendar.google.com"
+      googleCalendarId: "wigi.home.obersaxen@gmail.com"
     }
   });
   calendar.render();
