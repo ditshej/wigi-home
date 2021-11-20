@@ -6,3 +6,9 @@ preferences:
   assets:
     images:
       mode: grid
+  forms:
+    booking:
+      columns:
+        - datestamp
+        - firstname
+        - lastname
