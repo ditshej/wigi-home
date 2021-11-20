@@ -14,6 +14,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: date_to
         field:
@@ -26,6 +27,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: firstname
         field:
@@ -38,6 +40,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: lastname
         field:
@@ -50,6 +53,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: firstname_additional
         field:
@@ -60,6 +64,7 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
+          width: 50
       -
         handle: lastname_additional
         field:
@@ -70,6 +75,7 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
+          width: 50
       -
         handle: street_and_number
         field:
@@ -82,6 +88,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: zip_and_place
         field:
@@ -94,6 +101,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: email
         field:
@@ -106,6 +114,7 @@ sections:
           instructions_position: above
           validate:
             - required
+          width: 50
       -
         handle: phone
         field:
@@ -116,6 +125,7 @@ sections:
           icon: text
           listable: hidden
           instructions_position: above
+          width: 50
       -
         handle: remarks
         field:

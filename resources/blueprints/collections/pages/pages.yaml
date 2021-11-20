@@ -66,6 +66,11 @@ sections:
               fields:
                 -
                   import: quote
+            textblock:
+              display: Text
+              fields:
+                -
+                  import: textblock
             img_left:
               display: 'Bild links'
               fields:
@@ -76,11 +81,11 @@ sections:
               fields:
                 -
                   import: img_right
-            textblock:
-              display: Text
+            calendar:
+              display: Kalender
               fields:
                 -
-                  import: textblock
+                  import: calendar
             form:
               display: Formular
               fields:
