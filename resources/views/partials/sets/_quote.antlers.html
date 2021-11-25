@@ -15,7 +15,7 @@
                             lg:aspect-none lg:h-full"
                         >
                             {{ quote_img }}
-                            <img class="object-cover lg:h-full lg:w-full" src="{{ url }}" alt="{{ alt }}">
+                            {{ partial src="sets/img" classes="lg:w-full lg:h-full object-cover" }}
                             {{ /quote_img }}
                         </div>
                     </div>

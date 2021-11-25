@@ -1,8 +1,7 @@
 {{ if header_img }}
 <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
     {{ header_img }}
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-         src="{{ url }}" alt="{{ alt }}">
+    {{ partial src="sets/img" classes="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" }}
     {{ /header_img }}
 </div>
 {{ /if }}

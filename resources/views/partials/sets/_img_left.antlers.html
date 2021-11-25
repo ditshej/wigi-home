@@ -5,9 +5,7 @@
             lg:absolute lg:left-0 lg:h-full lg:w-1/2"
         >
             {{ img_left_picture }}
-            <img class="w-full h-full object-cover"
-                 src="{{ url }}"
-                 alt="{{ alt }}">
+            {{ partial src="sets/img" classes="w-full h-full object-cover" }}
             {{ /img_left_picture }}
         </div>
 
