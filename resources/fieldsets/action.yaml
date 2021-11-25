@@ -10,7 +10,7 @@ fields:
       icon: text
       listable: hidden
       instructions_position: above
-      width: 66
+      width: 50
   -
     handle: action_url
     field:
@@ -19,4 +19,4 @@ fields:
       icon: link
       listable: hidden
       instructions_position: above
-      width: 33
+      width: 50

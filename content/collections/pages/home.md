@@ -3,7 +3,7 @@ id: 7c4f73f8-7322-41ba-8002-9a51def915a2
 blueprint: pages
 title: '🏠 wigi home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1637088335
+updated_at: 1637876753
 slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
 header_img: ferienwohnung/20210509_122214.jpg
 replicator_content:
@@ -33,4 +33,6 @@ replicator_content:
         enabled: true
     type: img_left
     enabled: true
+header_action_name: 'Das will ich!'
+header_action_url: 'entry::08c5f180-ad42-4f97-9e38-796464521fb6'
 ---
