@@ -1,4 +1,4 @@
-# wigi-home
+# wigis-home
 some project for my uncle 🏠
 ## configuration
 That I remember, what I did, here some notes 🗒

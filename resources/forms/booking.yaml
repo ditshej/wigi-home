@@ -1,10 +1,11 @@
 title: Mietanfrage
 email:
   -
-    to: ditshej@gmail.com
-    from: wigi.home.obersaxen@gmail.com
-    reply_to: wigi.home.obersaxen@gmail.com
+    to: '{{ email }}'
+    from: 'Wigis Home <hallo@wigis-home.ch>'
+    reply_to: 'Wigis Home <hallo@wigis-home.ch>'
     subject: 'Danke für deine Mietanfrage'
   -
-    to: wigi.home.obersaxen@gmail.com
+    to: hallo@wigis-home.ch
+    reply_to: '{{ email }}'
     subject: 'Mietanfrage wigis-home.ch'
