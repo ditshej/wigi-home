@@ -1,13 +1,13 @@
 {{ form:create in="{form_form|raw}" }}
 
 {{ if success }}
-<div class="bg-green-300 text-orange-50 p-2">
-    {{ success }}
+<div class="bg-cyan-700 text-orange-50 p-2 mt-12">
+    Vielen Dank für die Anfrage. Wir werden uns per Mail bei dir melden.
 </div>
 {{ else }}
 
 {{ if errors }}
-<div class="bg-red-300 text-orange-50 p-2">
+<div class="bg-red-300 text-orange-50 p-2 mt-12">
     {{ errors }}
     {{ value }}<br>
     {{ /errors }}

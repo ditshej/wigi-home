@@ -1,0 +1,11 @@
+Hallo {{ firstname }} {{ lastname }}{{ if firstname_additional }} und {{ firstname_additional }}{{ if lastname_additional }} {{ lastname_additional }}{{ /if }}{{ /if }}
+Wir freuen uns, dass {{ firstname_additional ? 'ihr' : 'du' }} Interesse an unserem Wöhnligli {{ firstname_additional ? 'habt' : 'hast' }}.
+Wir werden uns möglichst bald melden und den Termin, wenn möglich, bestätigen.
+
+Hier nochmals alle Angaben:
+{{ fields }}
+{{ display }}: {{ value }}
+{{ /fields }}
+
+Liebe Grüsse
+Janine & Silvan Wigert

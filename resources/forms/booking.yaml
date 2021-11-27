@@ -5,6 +5,8 @@ email:
     from: 'Wigis Home <hallo@wigis-home.ch>'
     reply_to: 'Wigis Home <hallo@wigis-home.ch>'
     subject: 'Danke für deine Mietanfrage'
+    html: email/contact
+    text: email/contact-text
   -
     to: hallo@wigis-home.ch
     reply_to: '{{ email }}'

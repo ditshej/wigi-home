@@ -1,0 +1,31 @@
+<h1>
+    Hallo {{ firstname }} {{ lastname }}
+    {{ if firstname_additional }}
+    und {{ firstname_additional }}
+    {{ if lastname_additional }}
+    {{ lastname_additional }}
+    {{ /if }}
+    {{ /if }}
+</h1>
+
+<p>
+    Wir freuen uns, dass
+    {{ firstname_additional ? 'ihr' : 'du' }}
+    Interesse an unserem Wöhnligli
+    {{ firstname_additional ? 'habt' : 'hast' }}.
+</p>
+<p>
+    Wir werden uns möglichst bald melden und den Termin, wenn möglich, bestätigen.
+</p>
+
+<p>Hier nochmals alle Angaben:</p>
+<ul>
+    {{ fields }}
+    <li><b>{{ display }}</b>: {{ value }}</li>
+    {{ /fields }}
+</ul>
+
+<p>
+    Liebe Grüsse<br>
+    Janine & Silvan Wigert
+</p>
