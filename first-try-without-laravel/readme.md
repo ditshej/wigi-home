@@ -1,2 +1,2 @@
-# wigi-home
+# wigis-home
 some project for my uncle 🏠

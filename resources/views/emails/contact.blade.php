@@ -2,7 +2,7 @@
     <p>Hallo Silvan</p>
     <p>
         {{ $contact_form_data['first_name'] }} {{ $contact_form_data['last_name'] }} hat auf deiner Webseite
-        wigi-home.ch eine Anfrage über das Kontaktformular gestellt:
+        wigis-home.ch eine Anfrage über das Kontaktformular gestellt:
     </p>
     <ul>
         <li>Vorname: <strong>{{ $contact_form_data['first_name'] }}</strong></li>
