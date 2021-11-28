@@ -4,7 +4,6 @@ import 'alpinejs';
 
 import {Calendar} from '@fullcalendar/core';
 import dayGridPlugin from '@fullcalendar/daygrid';
-import listPlugin from '@fullcalendar/list';
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import glightbox from "glightbox/src/js/glightbox";
 
@@ -18,12 +17,17 @@ document.addEventListener('DOMContentLoaded', function () {
     let calendarEl = document.getElementById('calendar-container');
     const calendar = new Calendar(calendarEl, {
         locale: 'de',
-        plugins: [dayGridPlugin, listPlugin, googleCalendarPlugin],
-        initialView: window.innerWidth < 768 ? 'listWeek' : 'dayGridMonth',
+        plugins: [dayGridPlugin, googleCalendarPlugin],
+        initialView: window.innerWidth < 768 ? 'dayGridWeek' : 'dayGridMonth',
         headerToolbar: {
             left: 'prev,next today',
             center: 'title',
-            right: '',
+            right: window.innerWidth < 850 ? '' : 'dayGridDay,dayGridWeek,dayGridMonth',
+        },
+        footerToolbar: {
+            start: window.innerWidth < 850 ? 'dayGridDay,dayGridWeek,dayGridMonth' : '',
+            center: '',
+            end: '',
         },
         buttonText: {
             today: 'Heute',
