@@ -1,8 +1,8 @@
 <picture >
     {{ if extension !== 'svg' }}
-    <source srcset="{{ glide :src="url" format="webp" }}" type="image/webp">
+    <source srcset="{{ glide :src="url" :width="width" format="webp" }}" type="image/webp">
     {{ /if }}
-    {{ glide:url }}
+    {{ glide:url :width="width" }}
     <img
         class="{{ classes }}"
         src="{{ url }}"
