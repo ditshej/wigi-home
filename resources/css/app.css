@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* hack, weil ich gerade kein Macbook mehr habe und keine Lust, alles auf Windows richtig zu installieren */
+.fc-event-title {
+    font-size: 0;
+}
+
+.fc-event-title::before {
+    content: 'Wohnung besetzt';
+    font-size: 14px;
+}
