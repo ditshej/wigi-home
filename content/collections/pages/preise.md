@@ -3,8 +3,8 @@ id: 1bd1a330-c3c4-4e16-92ab-3f67d5a84bdf
 blueprint: pages
 title: '💸 Preise'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1637087855
-header_img: ferienwohnung/20210217_135500.jpg
+updated_at: 1642195217
+header_img: IMG_20210124_135642.jpg
 replicator_content:
   -
     textblock_title: 'Preisliste Ferienwohnung, Affeier 51, 7133 Affeier, Obersaxen für 2022'
@@ -73,9 +73,10 @@ replicator_content:
         textblock_content_list:
           - '2 sehr gute Schlitten'
           - Holzkohlegrill
+          - 'DAB/Internet-Radio und CD-Soundanlage von Sonoro'
           - 'WLAN, TV mit Netflix'
-          - 'Bluetooth Lautsprecher (fürs Radio und Musikhören übers eigene Handy)'
           - Gesellschaftsspiele
+          - 'Ein gemütlicher elektr. Relax-Sessel'
         type: list
         enabled: true
     img_right_picture: IMG_20210306_145628.jpg
@@ -110,7 +111,6 @@ replicator_content:
           - 'Die Busstation befindet sich 3 Gehminuten von der Wohnung entfernt.'
         type: list
         enabled: true
-    img_right_picture: ferienwohnung/IMG-20201214-WA0051.jpg
     type: img_right
     enabled: true
 ---

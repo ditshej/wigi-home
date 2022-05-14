@@ -1,11 +1,11 @@
 ---
 id: 7c4f73f8-7322-41ba-8002-9a51def915a2
 blueprint: pages
-title: '🏠 wigi home 🏠'
+title: '🏠 wigis home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1637876753
+updated_at: 1644078050
 slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
-header_img: ferienwohnung/20210509_122214.jpg
+header_img: winter-in-obersaxen/20201213_112150.jpg
 replicator_content:
   -
     quote_img: IMG_20201213_114459.jpg
@@ -17,10 +17,12 @@ replicator_content:
     textblock_title: Lage
     textblock_content:
       -
-        textblock_content_text: 'die Wohnung befindet sich 1289 m ü. M., im Bündner Bergdorf Affeier (Gemeinde Obersaxen-Mundaun)'
+        textblock_content_text: |-
+          die Wohnung befindet sich 1289 m ü. M., im Bündner Bergdorf Affeier 
+          (Adresse: Affeier 51, 7133 Obersaxen-Mundaun)
         type: text
         enabled: true
-    img_right_picture: ferienwohnung/20210217_135529.jpg
+    img_right_picture: IMG_20201213_111939.jpg
     type: img_right
     enabled: true
   -
