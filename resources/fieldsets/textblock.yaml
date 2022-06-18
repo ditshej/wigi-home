@@ -50,6 +50,13 @@ fields:
                 icon: table
                 listable: hidden
                 instructions_position: above
+        link:
+          display: Link
+          fields:
+            -
+              import: link
+              prefix: textblock_content_
       instructions_position: above
       listable: true
       collapse: false
+      read_only: false

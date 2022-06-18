@@ -3,7 +3,7 @@ id: 7c4f73f8-7322-41ba-8002-9a51def915a2
 blueprint: pages
 title: '🏠 wigis home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1644078050
+updated_at: 1652538287
 slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
 header_img: winter-in-obersaxen/20201213_112150.jpg
 replicator_content:
@@ -21,6 +21,11 @@ replicator_content:
           die Wohnung befindet sich 1289 m ü. M., im Bündner Bergdorf Affeier 
           (Adresse: Affeier 51, 7133 Obersaxen-Mundaun)
         type: text
+        enabled: true
+      -
+        textblock_content_link_name: 'App der Region'
+        textblock_content_link_link: 'https://www.surselva.info/Info/mia-Surselva-App'
+        type: link
         enabled: true
     img_right_picture: IMG_20201213_111939.jpg
     type: img_right
