@@ -3,9 +3,9 @@ id: 7c4f73f8-7322-41ba-8002-9a51def915a2
 blueprint: pages
 title: '🏠 wigis home 🏠'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1652538287
+updated_at: 1654421258
 slogan: 'ausspannen, ausruhen, auftanken, entdecken und geniessen'
-header_img: winter-in-obersaxen/20201213_112150.jpg
+header_img: 20211120_161150.jpg
 replicator_content:
   -
     quote_img: IMG_20201213_114459.jpg

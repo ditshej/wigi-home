@@ -3,8 +3,8 @@ id: 1bd1a330-c3c4-4e16-92ab-3f67d5a84bdf
 blueprint: pages
 title: '💸 Preise'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1642195217
-header_img: IMG_20210124_135642.jpg
+updated_at: 1654421300
+header_img: IMG_20200705_104446.jpg
 replicator_content:
   -
     textblock_title: 'Preisliste Ferienwohnung, Affeier 51, 7133 Affeier, Obersaxen für 2022'

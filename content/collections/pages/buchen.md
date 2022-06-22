@@ -3,7 +3,7 @@ id: 08c5f180-ad42-4f97-9e38-796464521fb6
 blueprint: pages
 title: '📆 Buchen'
 updated_by: 4a8574ee-bf61-414d-8bdc-0f912a4261e5
-updated_at: 1640787898
+updated_at: 1654421320
 header_img: IMG_20210529_195404.jpg
 question: 'Interessiert, ein paar Tage in Obersaxen zu verbringen?'
 replicator_content:
